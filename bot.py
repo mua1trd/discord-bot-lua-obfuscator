@@ -27,7 +27,7 @@ def keep_alive():
 token = os.environ['DISCORD_TOKEN']
 # channel id of the channel you want the bot obfuscate in. 
 # with developer settings enabled right click channel and copy id. (bot works in direct messages as well)
-channel_id = 994709144449851452
+channel_id = 1033332730265616416
 
 bot = commands.Bot(command_prefix="!")
 bot.remove_command("help")
